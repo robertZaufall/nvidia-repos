@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#162016"/>
+      <stop offset="100%" stop-color="#070b0d"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9be21a"/>
+      <stop offset="100%" stop-color="#76b900"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="url(#bg)"/>
+  <rect x="15" y="15" width="34" height="34" rx="6" fill="url(#chip)"/>
+  <rect x="21" y="21" width="22" height="22" rx="3" fill="#0a1307"/>
+  <path d="M25 38V26h4l7 8v-8h4v12h-4l-7-8v8h-4z" fill="#9be21a"/>
+  <g stroke="#76b900" stroke-width="2" stroke-linecap="round">
+    <path d="M20 10v5M28 10v5M36 10v5M44 10v5"/>
+    <path d="M20 49v5M28 49v5M36 49v5M44 49v5"/>
+    <path d="M10 20h5M10 28h5M10 36h5M10 44h5"/>
+    <path d="M49 20h5M49 28h5M49 36h5M49 44h5"/>
+  </g>
+</svg>
