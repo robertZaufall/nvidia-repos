@@ -55,7 +55,7 @@ AUTO_KEYWORD_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("TensorRT", ("tensorrt", "tensor rt", "tensor-rt")),
     ("NeMo", ("nemo",)),
     ("Isaac", ("isaac",)),
-    ("RAPIDS", ("rapids",)),
+    ("RAPIDS", ("rapids", "raft", "cuvs")),
     ("Omniverse", ("omniverse",)),
     ("RTX", ("rtx",)),
     ("NIM", ("nim",)),
@@ -75,6 +75,13 @@ AUTO_KEYWORD_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("LLM", ("llm",)),
     ("VLM", ("vlm",)),
     ("Lidar", ("lidar", "LiDAR".lower())),
+    ("OptiX", ("optix",)),
+    ("NVML", ("nvml",)),
+    ("NVTX", ("nvtx",)),
+    ("Vector Search", ("vector search", "vector-search", "cuvs")),
+    ("Physical AI", ("physical ai", "world model", "cosmos")),
+    ("Infrastructure", ("infra controller", "infra-controller", "hardware lifecycle")),
+    ("Parallelism", ("parallel programming", "stdexec")),
 )
 SUBSTRING_KEYWORDS = {"DGX Spark", "Thor", "Jetson", "Orin", "AGX", "Claw", "OpenShell", "CUDA"}
 
@@ -538,6 +545,25 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
             " ".join(repo.get("topics") or []),
         ]
     ).lower()
+    name_overrides = {
+        "cosmos": "robotics-sim-edge",
+        "cosmos-curator": "robotics-sim-edge",
+        "cosmos-framework": "robotics-sim-edge",
+        "cuvs": "data-analytics",
+        "dgx-spark-playbooks": "ai-llm",
+        "go-nvml": "gpu-systems",
+        "infra-controller": "cloud-infra",
+        "jax-toolbox": "ai-llm",
+        "nvtx": "gpu-systems",
+        "optix_apps": "graphics-vision-media",
+        "raft": "data-analytics",
+        "stdexec": "gpu-systems",
+    }
+    clusters_by_key = {cluster.key: cluster for cluster in CLUSTERS}
+    name_override = name_overrides.get(repo["name"].lower())
+    if name_override:
+        return clusters_by_key[name_override]
+
     override_terms = {
         "robotics-sim-edge": (
             "agx",
@@ -599,7 +625,6 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
             "visrtx",
         ),
     }
-    clusters_by_key = {cluster.key: cluster for cluster in CLUSTERS}
     for key, terms in override_terms.items():
         if any(term_matches(haystack, term) for term in terms):
             return clusters_by_key[key]
@@ -779,8 +804,7 @@ def github_cell(repo: dict[str, Any], include_activity: bool = False) -> str:
       <span class="fork-count">⑂ {fmt_number(repo["forks"])}</span>
       <span class="commit-count">⟳ {fmt_number(repo.get("commits"))}</span>
     </div>
-    <span class="last-updated">⏱ {fmt_date(repo["pushed_at"])}</span>
-    {activity}
+    <span class="last-updated">⏱ {fmt_date(repo["pushed_at"])}</span>{activity}
   </td>"""
 
 
