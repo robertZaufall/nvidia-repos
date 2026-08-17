@@ -548,17 +548,23 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
         ]
     ).lower()
     name_overrides = {
+        "asset-harvester": "robotics-sim-edge",
         "cosmos": "robotics-sim-edge",
         "cosmos-curator": "robotics-sim-edge",
         "cosmos-framework": "robotics-sim-edge",
         "cuvs": "data-analytics",
+        "deepstream": "graphics-vision-media",
         "dgx-spark-playbooks": "ai-llm",
+        "flashdreams": "graphics-vision-media",
         "go-nvml": "gpu-systems",
         "infra-controller": "cloud-infra",
         "jax-toolbox": "ai-llm",
+        "nemoclaw": "ai-llm",
         "nvtx": "gpu-systems",
         "optix_apps": "graphics-vision-media",
         "raft": "data-analytics",
+        "skillspector": "ai-llm",
+        "sol-execbench": "gpu-systems",
         "stdexec": "gpu-systems",
     }
     clusters_by_key = {cluster.key: cluster for cluster in CLUSTERS}
