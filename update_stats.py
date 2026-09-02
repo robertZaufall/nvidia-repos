@@ -49,6 +49,7 @@ AUTO_KEYWORD_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("Orin", ("orin",)),
     ("AGX", ("agx",)),
     ("Claw", ("claw",)),
+    ("Agent Skills", ("agent skills", "agent-skills", "skillevaluator", "skillspector")),
     ("OpenShell", ("openshell", "open shell", "open-shell")),
     ("CUDA", ("cuda",)),
     ("DeepStream", ("deepstream", "deep stream", "deep-stream")),
@@ -81,6 +82,7 @@ AUTO_KEYWORD_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("NVTX", ("nvtx",)),
     ("Vector Search", ("vector search", "vector-search", "cuvs")),
     ("Physical AI", ("physical ai", "world model", "cosmos")),
+    ("ALCHEMI", ("alchemi", "nvalchemi")),
     ("Infrastructure", ("infra controller", "infra-controller", "hardware lifecycle")),
     ("Parallelism", ("parallel programming", "stdexec")),
 )
@@ -560,12 +562,18 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
         "infra-controller": "cloud-infra",
         "jax-toolbox": "ai-llm",
         "nemoclaw": "ai-llm",
+        "nsight-python": "gpu-systems",
+        "nvalchemi-toolkit-ops": "ai-llm",
         "nvtx": "gpu-systems",
         "optix_apps": "graphics-vision-media",
         "raft": "data-analytics",
+        "skills": "ai-llm",
+        "skillevaluator": "ai-llm",
         "skillspector": "ai-llm",
         "sol-execbench": "gpu-systems",
         "stdexec": "gpu-systems",
+        "tensorrt-model-connect": "ai-llm",
+        "tilus": "gpu-systems",
     }
     clusters_by_key = {cluster.key: cluster for cluster in CLUSTERS}
     name_override = name_overrides.get(repo["name"].lower())
