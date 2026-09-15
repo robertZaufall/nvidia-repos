@@ -76984,6 +76984,706 @@
           "stars": 1
         }
       }
+    },
+    {
+      "date": "2026-09-15",
+      "repos": {
+        "NVIDIA-AI-IOT/Lidar_AI_Solution": {
+          "forks": 341,
+          "pushed_at": "2026-07-28T09:51:55Z",
+          "stars": 1880
+        },
+        "NVIDIA-AI-IOT/auto-magic-calib": {
+          "forks": 7,
+          "pushed_at": "2026-07-27T06:46:18Z",
+          "stars": 37
+        },
+        "NVIDIA-AI-IOT/deepstream_dockers": {
+          "forks": 22,
+          "pushed_at": "2026-08-19T23:06:52Z",
+          "stars": 97
+        },
+        "NVIDIA-AI-IOT/deepstream_libraries": {
+          "forks": 6,
+          "pushed_at": "2026-07-14T05:43:31Z",
+          "stars": 90
+        },
+        "NVIDIA-AI-IOT/deepstream_reference_apps": {
+          "forks": 373,
+          "pushed_at": "2026-07-15T09:40:36Z",
+          "stars": 1362
+        },
+        "NVIDIA-AI-IOT/deepstream_tao_apps": {
+          "forks": 109,
+          "pushed_at": "2026-07-15T09:43:43Z",
+          "stars": 456
+        },
+        "NVIDIA-AI-IOT/deepstream_tools": {
+          "forks": 11,
+          "pushed_at": "2026-07-15T09:49:39Z",
+          "stars": 34
+        },
+        "NVIDIA-AI-IOT/inference_builder": {
+          "forks": 18,
+          "pushed_at": "2026-07-14T23:10:34Z",
+          "stars": 77
+        },
+        "NVIDIA-AI-IOT/jetbot": {
+          "forks": 1075,
+          "pushed_at": "2026-06-30T04:14:24Z",
+          "stars": 3337
+        },
+        "NVIDIA-AI-IOT/jetson-ai-lab": {
+          "forks": 62,
+          "pushed_at": "2026-09-10T22:08:52Z",
+          "stars": 206
+        },
+        "NVIDIA-AI-IOT/jetson-bsp-skills": {
+          "forks": 8,
+          "pushed_at": "2026-06-22T14:45:33Z",
+          "stars": 60
+        },
+        "NVIDIA-AI-IOT/jetson-device-skills": {
+          "forks": 23,
+          "pushed_at": "2026-08-18T07:33:42Z",
+          "stars": 136
+        },
+        "NVIDIA-AI-IOT/live-vlm-webui": {
+          "forks": 69,
+          "pushed_at": "2026-09-10T06:21:05Z",
+          "stars": 451
+        },
+        "NVIDIA-AI-IOT/multi_modal_ai_studio": {
+          "forks": 13,
+          "pushed_at": "2026-09-03T15:01:18Z",
+          "stars": 30
+        },
+        "NVIDIA-AI-IOT/reachy-mini-jetson-assistant": {
+          "forks": 15,
+          "pushed_at": "2026-09-09T05:25:30Z",
+          "stars": 33
+        },
+        "NVIDIA-AI-IOT/remembr": {
+          "forks": 44,
+          "pushed_at": "2026-08-24T00:40:56Z",
+          "stars": 356
+        },
+        "NVIDIA/3DObjectReconstruction": {
+          "forks": 25,
+          "pushed_at": "2026-07-06T22:09:35Z",
+          "stars": 239
+        },
+        "NVIDIA/AMGX": {
+          "forks": 195,
+          "pushed_at": "2026-07-09T07:00:23Z",
+          "stars": 692
+        },
+        "NVIDIA/CUDALibrarySamples": {
+          "forks": 476,
+          "pushed_at": "2026-09-11T08:50:02Z",
+          "stars": 2507
+        },
+        "NVIDIA/DALI": {
+          "forks": 677,
+          "pushed_at": "2026-09-14T16:31:43Z",
+          "stars": 5759
+        },
+        "NVIDIA/DCGM": {
+          "forks": 109,
+          "pushed_at": "2026-08-19T01:26:55Z",
+          "stars": 791
+        },
+        "NVIDIA/DLSS": {
+          "forks": 128,
+          "pushed_at": "2026-09-08T15:29:52Z",
+          "stars": 1505
+        },
+        "NVIDIA/Deep-Learning-Accelerator-SW": {
+          "forks": 24,
+          "pushed_at": "2026-08-23T14:44:22Z",
+          "stars": 236
+        },
+        "NVIDIA/DeepStream": {
+          "forks": 48,
+          "pushed_at": "2026-09-11T13:48:24Z",
+          "stars": 243
+        },
+        "NVIDIA/GenerativeAIExamples": {
+          "forks": 1098,
+          "pushed_at": "2026-09-09T17:44:34Z",
+          "stars": 4181
+        },
+        "NVIDIA/Isaac-GR00T": {
+          "forks": 1453,
+          "pushed_at": "2026-08-20T21:25:42Z",
+          "stars": 8065
+        },
+        "NVIDIA/IsaacTeleop": {
+          "forks": 87,
+          "pushed_at": "2026-09-15T05:29:46Z",
+          "stars": 380
+        },
+        "NVIDIA/JAX-Toolbox": {
+          "forks": 83,
+          "pushed_at": "2026-09-15T06:04:52Z",
+          "stars": 433
+        },
+        "NVIDIA/MDL-SDK": {
+          "forks": 91,
+          "pushed_at": "2026-08-31T09:22:09Z",
+          "stars": 536
+        },
+        "NVIDIA/MatX": {
+          "forks": 127,
+          "pushed_at": "2026-09-15T00:26:49Z",
+          "stars": 1444
+        },
+        "NVIDIA/Megatron-Energon": {
+          "forks": 65,
+          "pushed_at": "2026-09-10T12:49:09Z",
+          "stars": 383
+        },
+        "NVIDIA/Megatron-LM": {
+          "forks": 4509,
+          "pushed_at": "2026-09-15T06:05:11Z",
+          "stars": 17899
+        },
+        "NVIDIA/Model-Optimizer": {
+          "forks": 597,
+          "pushed_at": "2026-09-15T01:12:48Z",
+          "stars": 3808
+        },
+        "NVIDIA/NVFlare": {
+          "forks": 281,
+          "pushed_at": "2026-09-15T00:04:00Z",
+          "stars": 969
+        },
+        "NVIDIA/NVSentinel": {
+          "forks": 130,
+          "pushed_at": "2026-09-15T06:02:50Z",
+          "stars": 383
+        },
+        "NVIDIA/NVTX": {
+          "forks": 81,
+          "pushed_at": "2026-09-08T11:04:38Z",
+          "stars": 559
+        },
+        "NVIDIA/NeMo-Agent-Toolkit": {
+          "forks": 755,
+          "pushed_at": "2026-09-10T22:29:46Z",
+          "stars": 2632
+        },
+        "NVIDIA/NeMo-Retriever": {
+          "forks": 346,
+          "pushed_at": "2026-09-15T04:00:13Z",
+          "stars": 2976
+        },
+        "NVIDIA/NeMo-text-processing": {
+          "forks": 184,
+          "pushed_at": "2026-09-12T02:54:03Z",
+          "stars": 504
+        },
+        "NVIDIA/NemoClaw": {
+          "forks": 3086,
+          "pushed_at": "2026-09-15T06:01:30Z",
+          "stars": 22462
+        },
+        "NVIDIA/OSMO": {
+          "forks": 53,
+          "pushed_at": "2026-09-15T05:53:49Z",
+          "stars": 244
+        },
+        "NVIDIA/OpenShell": {
+          "forks": 1251,
+          "pushed_at": "2026-09-15T05:58:03Z",
+          "stars": 8608
+        },
+        "NVIDIA/OptiX_Apps": {
+          "forks": 61,
+          "pushed_at": "2026-07-06T11:31:37Z",
+          "stars": 359
+        },
+        "NVIDIA/Personal-AI-Router": {
+          "forks": 232,
+          "pushed_at": "2026-09-10T20:49:11Z",
+          "stars": 1299
+        },
+        "NVIDIA/RULER": {
+          "forks": 141,
+          "pushed_at": "2026-07-22T17:32:53Z",
+          "stars": 1617
+        },
+        "NVIDIA/SOL-ExecBench": {
+          "forks": 33,
+          "pushed_at": "2026-07-15T17:31:33Z",
+          "stars": 295
+        },
+        "NVIDIA/SkillEvaluator": {
+          "forks": 44,
+          "pushed_at": "2026-09-15T01:42:37Z",
+          "stars": 443
+        },
+        "NVIDIA/SkillSpector": {
+          "forks": 1474,
+          "pushed_at": "2026-09-15T05:46:23Z",
+          "stars": 17223
+        },
+        "NVIDIA/TensorRT": {
+          "forks": 2407,
+          "pushed_at": "2026-09-10T18:39:04Z",
+          "stars": 13346
+        },
+        "NVIDIA/TensorRT-Edge-LLM": {
+          "forks": 129,
+          "pushed_at": "2026-09-03T18:04:54Z",
+          "stars": 552
+        },
+        "NVIDIA/TensorRT-LLM": {
+          "forks": 2744,
+          "pushed_at": "2026-09-15T05:50:59Z",
+          "stars": 14625
+        },
+        "NVIDIA/TensorRT-Model-Connect": {
+          "forks": 55,
+          "pushed_at": "2026-09-15T05:21:33Z",
+          "stars": 250
+        },
+        "NVIDIA/TileGym": {
+          "forks": 85,
+          "pushed_at": "2026-09-14T13:06:01Z",
+          "stars": 808
+        },
+        "NVIDIA/TransformerEngine": {
+          "forks": 824,
+          "pushed_at": "2026-09-14T18:18:14Z",
+          "stars": 3533
+        },
+        "NVIDIA/VisRTX": {
+          "forks": 46,
+          "pushed_at": "2026-09-02T20:23:04Z",
+          "stars": 280
+        },
+        "NVIDIA/accelerated-computing-hub": {
+          "forks": 331,
+          "pushed_at": "2026-09-04T23:41:54Z",
+          "stars": 1977
+        },
+        "NVIDIA/aerial-cuda-accelerated-ran": {
+          "forks": 142,
+          "pushed_at": "2026-08-27T16:16:19Z",
+          "stars": 421
+        },
+        "NVIDIA/aicr": {
+          "forks": 98,
+          "pushed_at": "2026-09-15T05:02:24Z",
+          "stars": 419
+        },
+        "NVIDIA/aistore": {
+          "forks": 284,
+          "pushed_at": "2026-09-14T22:40:39Z",
+          "stars": 1935
+        },
+        "NVIDIA/apex": {
+          "forks": 1526,
+          "pushed_at": "2026-09-14T21:41:16Z",
+          "stars": 8999
+        },
+        "NVIDIA/asset-harvester": {
+          "forks": 25,
+          "pushed_at": "2026-09-09T16:56:34Z",
+          "stars": 257
+        },
+        "NVIDIA/cccl": {
+          "forks": 486,
+          "pushed_at": "2026-09-15T04:21:50Z",
+          "stars": 2513
+        },
+        "NVIDIA/cloud-native-stack": {
+          "forks": 85,
+          "pushed_at": "2026-07-14T19:53:12Z",
+          "stars": 248
+        },
+        "NVIDIA/container-canary": {
+          "forks": 22,
+          "pushed_at": "2026-08-18T15:00:40Z",
+          "stars": 309
+        },
+        "NVIDIA/cosmos": {
+          "forks": 875,
+          "pushed_at": "2026-09-14T19:01:50Z",
+          "stars": 11820
+        },
+        "NVIDIA/cosmos-curator": {
+          "forks": 37,
+          "pushed_at": "2026-09-03T21:35:52Z",
+          "stars": 270
+        },
+        "NVIDIA/cosmos-framework": {
+          "forks": 146,
+          "pushed_at": "2026-09-15T05:53:30Z",
+          "stars": 527
+        },
+        "NVIDIA/cuCollections": {
+          "forks": 119,
+          "pushed_at": "2026-09-15T02:54:25Z",
+          "stars": 664
+        },
+        "NVIDIA/cuEquivariance": {
+          "forks": 39,
+          "pushed_at": "2026-09-09T20:35:27Z",
+          "stars": 426
+        },
+        "NVIDIA/cuQuantum": {
+          "forks": 102,
+          "pushed_at": "2026-09-10T19:48:59Z",
+          "stars": 499
+        },
+        "NVIDIA/cuda-checkpoint": {
+          "forks": 41,
+          "pushed_at": "2026-07-06T17:32:59Z",
+          "stars": 487
+        },
+        "NVIDIA/cuda-gdb": {
+          "forks": 70,
+          "pushed_at": "2026-09-10T14:49:51Z",
+          "stars": 252
+        },
+        "NVIDIA/cuda-python": {
+          "forks": 329,
+          "pushed_at": "2026-09-15T05:25:22Z",
+          "stars": 3380
+        },
+        "NVIDIA/cuda-q-academic": {
+          "forks": 115,
+          "pushed_at": "2026-09-13T16:52:47Z",
+          "stars": 387
+        },
+        "NVIDIA/cuda-quantum": {
+          "forks": 452,
+          "pushed_at": "2026-09-15T03:21:33Z",
+          "stars": 1131
+        },
+        "NVIDIA/cuda-samples": {
+          "forks": 2422,
+          "pushed_at": "2026-09-09T22:14:43Z",
+          "stars": 9628
+        },
+        "NVIDIA/cuda-tile": {
+          "forks": 90,
+          "pushed_at": "2026-09-10T03:47:23Z",
+          "stars": 1028
+        },
+        "NVIDIA/cudf": {
+          "forks": 1106,
+          "pushed_at": "2026-09-15T05:48:16Z",
+          "stars": 9752
+        },
+        "NVIDIA/cudf-spark": {
+          "forks": 303,
+          "pushed_at": "2026-09-15T05:13:08Z",
+          "stars": 1003
+        },
+        "NVIDIA/cudnn-frontend": {
+          "forks": 282,
+          "pushed_at": "2026-09-15T06:03:51Z",
+          "stars": 937
+        },
+        "NVIDIA/cuml": {
+          "forks": 674,
+          "pushed_at": "2026-09-15T03:01:25Z",
+          "stars": 5277
+        },
+        "NVIDIA/cuopt": {
+          "forks": 228,
+          "pushed_at": "2026-09-15T03:43:11Z",
+          "stars": 1040
+        },
+        "NVIDIA/cuopt-examples": {
+          "forks": 87,
+          "pushed_at": "2026-08-27T17:38:10Z",
+          "stars": 467
+        },
+        "NVIDIA/cutile-python": {
+          "forks": 153,
+          "pushed_at": "2026-09-12T10:26:10Z",
+          "stars": 2145
+        },
+        "NVIDIA/cutlass": {
+          "forks": 2085,
+          "pushed_at": "2026-09-08T06:20:12Z",
+          "stars": 10430
+        },
+        "NVIDIA/cuvs": {
+          "forks": 234,
+          "pushed_at": "2026-09-15T03:25:51Z",
+          "stars": 851
+        },
+        "NVIDIA/dcgm-exporter": {
+          "forks": 337,
+          "pushed_at": "2026-09-10T05:27:15Z",
+          "stars": 1871
+        },
+        "NVIDIA/deepops": {
+          "forks": 360,
+          "pushed_at": "2026-09-14T14:30:14Z",
+          "stars": 1472
+        },
+        "NVIDIA/dgx-spark-playbooks": {
+          "forks": 296,
+          "pushed_at": "2026-09-10T21:01:42Z",
+          "stars": 1360
+        },
+        "NVIDIA/digital-biology-examples": {
+          "forks": 64,
+          "pushed_at": "2026-09-12T04:47:05Z",
+          "stars": 240
+        },
+        "NVIDIA/earth2studio": {
+          "forks": 257,
+          "pushed_at": "2026-09-14T21:41:21Z",
+          "stars": 1133
+        },
+        "NVIDIA/egl-wayland": {
+          "forks": 54,
+          "pushed_at": "2026-09-04T14:11:55Z",
+          "stars": 330
+        },
+        "NVIDIA/flashdreams": {
+          "forks": 58,
+          "pushed_at": "2026-09-15T00:04:44Z",
+          "stars": 496
+        },
+        "NVIDIA/garak": {
+          "forks": 1277,
+          "pushed_at": "2026-09-09T18:56:03Z",
+          "stars": 9240
+        },
+        "NVIDIA/gdrcopy": {
+          "forks": 194,
+          "pushed_at": "2026-07-14T23:16:03Z",
+          "stars": 1415
+        },
+        "NVIDIA/go-nvml": {
+          "forks": 98,
+          "pushed_at": "2026-09-10T23:16:36Z",
+          "stars": 457
+        },
+        "NVIDIA/gpu-operator": {
+          "forks": 550,
+          "pushed_at": "2026-09-15T00:47:53Z",
+          "stars": 2874
+        },
+        "NVIDIA/hpc-container-maker": {
+          "forks": 106,
+          "pushed_at": "2026-08-31T16:57:21Z",
+          "stars": 517
+        },
+        "NVIDIA/instant-nurec": {
+          "forks": 18,
+          "pushed_at": "2026-09-02T10:45:57Z",
+          "stars": 208
+        },
+        "NVIDIA/jetson-gpio": {
+          "forks": 264,
+          "pushed_at": "2026-07-24T22:29:11Z",
+          "stars": 1077
+        },
+        "NVIDIA/k8s-device-plugin": {
+          "forks": 861,
+          "pushed_at": "2026-09-15T03:16:40Z",
+          "stars": 3870
+        },
+        "NVIDIA/kubevirt-gpu-device-plugin": {
+          "forks": 91,
+          "pushed_at": "2026-09-15T02:10:53Z",
+          "stars": 294
+        },
+        "NVIDIA/kvpress": {
+          "forks": 178,
+          "pushed_at": "2026-09-14T13:37:58Z",
+          "stars": 1209
+        },
+        "NVIDIA/libnvidia-container": {
+          "forks": 273,
+          "pushed_at": "2026-09-13T18:52:41Z",
+          "stars": 1129
+        },
+        "NVIDIA/logits-processor-zoo": {
+          "forks": 27,
+          "pushed_at": "2026-09-10T12:08:47Z",
+          "stars": 387
+        },
+        "NVIDIA/makani": {
+          "forks": 84,
+          "pushed_at": "2026-09-10T13:58:21Z",
+          "stars": 399
+        },
+        "NVIDIA/mig-parted": {
+          "forks": 74,
+          "pushed_at": "2026-09-14T23:42:51Z",
+          "stars": 263
+        },
+        "NVIDIA/nccl": {
+          "forks": 1414,
+          "pushed_at": "2026-09-14T14:06:48Z",
+          "stars": 5087
+        },
+        "NVIDIA/nccl-tests": {
+          "forks": 406,
+          "pushed_at": "2026-08-28T14:51:05Z",
+          "stars": 1658
+        },
+        "NVIDIA/nim-anywhere": {
+          "forks": 113,
+          "pushed_at": "2026-09-03T20:32:50Z",
+          "stars": 273
+        },
+        "NVIDIA/nim-deploy": {
+          "forks": 102,
+          "pushed_at": "2026-09-04T15:49:50Z",
+          "stars": 239
+        },
+        "NVIDIA/nsight-python": {
+          "forks": 23,
+          "pushed_at": "2026-09-11T12:36:20Z",
+          "stars": 293
+        },
+        "NVIDIA/numba-cuda": {
+          "forks": 76,
+          "pushed_at": "2026-09-10T14:57:56Z",
+          "stars": 295
+        },
+        "NVIDIA/nvalchemi-toolkit-ops": {
+          "forks": 39,
+          "pushed_at": "2026-09-14T22:00:57Z",
+          "stars": 231
+        },
+        "NVIDIA/nvapi": {
+          "forks": 39,
+          "pushed_at": "2026-09-04T11:07:26Z",
+          "stars": 238
+        },
+        "NVIDIA/nvbandwidth": {
+          "forks": 93,
+          "pushed_at": "2026-07-28T18:47:59Z",
+          "stars": 773
+        },
+        "NVIDIA/nvbench": {
+          "forks": 122,
+          "pushed_at": "2026-08-31T15:47:18Z",
+          "stars": 926
+        },
+        "NVIDIA/nvcf": {
+          "forks": 69,
+          "pushed_at": "2026-09-15T05:38:42Z",
+          "stars": 213
+        },
+        "NVIDIA/nvidia-container-toolkit": {
+          "forks": 589,
+          "pushed_at": "2026-09-14T21:42:45Z",
+          "stars": 4562
+        },
+        "NVIDIA/nvidia-kaggle": {
+          "forks": 38,
+          "pushed_at": "2026-08-04T08:57:03Z",
+          "stars": 326
+        },
+        "NVIDIA/nvidia-resiliency-ext": {
+          "forks": 65,
+          "pushed_at": "2026-09-11T23:44:04Z",
+          "stars": 336
+        },
+        "NVIDIA/nvidia-settings": {
+          "forks": 91,
+          "pushed_at": "2026-09-09T15:26:23Z",
+          "stars": 344
+        },
+        "NVIDIA/nvkind": {
+          "forks": 31,
+          "pushed_at": "2026-07-12T02:52:37Z",
+          "stars": 211
+        },
+        "NVIDIA/nvmath-python": {
+          "forks": 46,
+          "pushed_at": "2026-07-14T17:52:55Z",
+          "stars": 600
+        },
+        "NVIDIA/nvshmem": {
+          "forks": 109,
+          "pushed_at": "2026-08-27T16:42:11Z",
+          "stars": 584
+        },
+        "NVIDIA/nvtrust": {
+          "forks": 61,
+          "pushed_at": "2026-09-01T06:17:38Z",
+          "stars": 323
+        },
+        "NVIDIA/open-gpu-kernel-modules": {
+          "forks": 1862,
+          "pushed_at": "2026-09-09T18:57:22Z",
+          "stars": 17383
+        },
+        "NVIDIA/physicsnemo": {
+          "forks": 783,
+          "pushed_at": "2026-09-14T22:32:53Z",
+          "stars": 3250
+        },
+        "NVIDIA/raft": {
+          "forks": 250,
+          "pushed_at": "2026-09-14T20:10:53Z",
+          "stars": 1042
+        },
+        "NVIDIA/recsys-examples": {
+          "forks": 82,
+          "pushed_at": "2026-09-14T03:18:00Z",
+          "stars": 317
+        },
+        "NVIDIA/skills": {
+          "forks": 391,
+          "pushed_at": "2026-09-15T02:17:40Z",
+          "stars": 3292
+        },
+        "NVIDIA/stdexec": {
+          "forks": 270,
+          "pushed_at": "2026-09-14T00:26:01Z",
+          "stars": 2431
+        },
+        "NVIDIA/tilus": {
+          "forks": 30,
+          "pushed_at": "2026-09-07T22:13:55Z",
+          "stars": 492
+        },
+        "NVIDIA/torch-harmonics": {
+          "forks": 73,
+          "pushed_at": "2026-09-15T06:02:44Z",
+          "stars": 702
+        },
+        "NVIDIA/trt-samples-for-hackathon-cn": {
+          "forks": 351,
+          "pushed_at": "2026-09-13T17:24:30Z",
+          "stars": 1672
+        },
+        "NVIDIA/warp": {
+          "forks": 618,
+          "pushed_at": "2026-09-15T05:32:58Z",
+          "stars": 7114
+        },
+        "dusty-nv/jetson-containers": {
+          "forks": 851,
+          "pushed_at": "2026-08-10T06:35:47Z",
+          "stars": 4858
+        },
+        "jetsonhacks/jetson-tools": {
+          "forks": 0,
+          "pushed_at": "2026-07-22T01:36:55Z",
+          "stars": 2
+        },
+        "jetsonhacks/xtouch-compact": {
+          "forks": 0,
+          "pushed_at": "2026-09-07T05:47:57Z",
+          "stars": 1
+        }
+      }
     }
   ]
 }
