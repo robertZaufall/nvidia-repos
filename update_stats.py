@@ -556,6 +556,7 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
         "cosmos-framework": "robotics-sim-edge",
         "cuquantum": "gpu-systems",
         "cuvs": "data-analytics",
+        "deep-learning-accelerator-sw": "robotics-sim-edge",  # DLA cores on Jetson/DRIVE Orin and Xavier SoCs
         "deepstream": "graphics-vision-media",
         "dgx-spark-playbooks": "ai-llm",
         "egl-wayland": "graphics-vision-media",
@@ -563,6 +564,7 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
         "go-nvml": "gpu-systems",
         "infra-controller": "cloud-infra",
         "jax-toolbox": "ai-llm",
+        "mig-parted": "cloud-infra",  # declarative node/cluster MIG config used by the GPU Operator stack
         "nemoclaw": "ai-llm",
         "nsight-python": "gpu-systems",
         "nvalchemi-toolkit-ops": "ai-llm",
