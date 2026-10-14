@@ -562,7 +562,6 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
         "egl-wayland": "graphics-vision-media",
         "flashdreams": "graphics-vision-media",
         "go-nvml": "gpu-systems",
-        "infra-controller": "cloud-infra",
         "jax-toolbox": "ai-llm",
         "mig-parted": "cloud-infra",  # declarative node/cluster MIG config used by the GPU Operator stack
         "nemoclaw": "ai-llm",
@@ -576,6 +575,7 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
         "skillspector": "ai-llm",
         "sol-execbench": "gpu-systems",
         "stdexec": "gpu-systems",
+        "structured-data-models": "data-analytics",  # GPU-native tabular/relational/time-series foundation models + cuDF-backed data processors
         "tensorrt-model-connect": "ai-llm",
         "tilus": "gpu-systems",
     }
