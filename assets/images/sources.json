@@ -1,0 +1,22 @@
+[
+  {
+    "file": "github-nvidia-ai-iot.png",
+    "source": "https://github.com/NVIDIA-AI-IOT.png?size=32",
+    "sha256": "6d199d074063278d5535eea1fa7a157e7a0a906bd36f2bc6ee6cfc8c27872fe0"
+  },
+  {
+    "file": "github-nvidia.png",
+    "source": "https://github.com/NVIDIA.png?size=32",
+    "sha256": "44aae04fd18d3d1976bbb7ff05e2305c213a6c8d34a2a20a46313b40cdd3c65e"
+  },
+  {
+    "file": "github-dusty-nv.jpg",
+    "source": "https://github.com/dusty-nv.png?size=32",
+    "sha256": "5d4000182cc39d316143a65418346f32a501ff4cb52a02dfdcfdc74a5a4166d3"
+  },
+  {
+    "file": "github-jetsonhacks.jpg",
+    "source": "https://github.com/jetsonhacks.png?size=32",
+    "sha256": "e74e980d0ec9c0c9bb73ff9b36fb818d0cb9904d223b4e559afc4a854abee106"
+  }
+]
