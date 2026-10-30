@@ -565,6 +565,9 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
         "flashdreams": "graphics-vision-media",
         "go-nvml": "gpu-systems",
         "jax-toolbox": "ai-llm",
+        # Evidence 2026-10-30: CUDA/MPI/NCCL/NVSHMEM multi-GPU programming examples;
+        # the "models" substring pulled it into AI, LLM & Model Tooling.
+        "multi-gpu-programming-models": "gpu-systems",
         "mig-parted": "cloud-infra",  # declarative node/cluster MIG config used by the GPU Operator stack
         "nemoclaw": "ai-llm",
         "nsight-python": "gpu-systems",
@@ -573,6 +576,9 @@ def cluster_repo(repo: dict[str, Any]) -> Cluster:
         "optix_apps": "graphics-vision-media",
         "raft": "data-analytics",
         "skills": "ai-llm",
+        # Evidence 2026-10-30: spark-local-inference is Flare, a local LLM inference
+        # server for DGX Spark / SM12x GPUs; the "spark" term misplaced it in RAPIDS & Analytics.
+        "spark-local-inference": "ai-llm",
         "skillevaluator": "ai-llm",
         "skillspector": "ai-llm",
         "sol-execbench": "gpu-systems",
